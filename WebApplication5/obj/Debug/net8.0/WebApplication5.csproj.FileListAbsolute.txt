@@ -39,7 +39,6 @@
 /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
 /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
 /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/obj/Debug/net8.0/WebApplication5.csproj.AssemblyReference.cache
-/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/obj/Debug/net8.0/WebApplication5.csproj.CopyComplete
 /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/bin/Debug/net8.0/Azure.Core.dll
 /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/bin/Debug/net8.0/Azure.Identity.dll
 /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -156,3 +155,5 @@
 /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/obj/Debug/net8.0/WebApplication5.sourcelink.json
+/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/obj/Debug/net8.0/WebAppli.9EBC9D7D.Up2Date
