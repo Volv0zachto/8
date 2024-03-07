@@ -1,0 +1,45 @@
+
+@using System.Runtime.InteropServices.JavaScript
+@model IEnumerable<Product>
+<table class="table table-bordered table-striped" 
+       style="width:100%">
+    <thead>
+    <tr>
+        <th>Brend</th>
+        <th>Price</th>
+        <th>Weight</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @{
+        foreach(var obj in Model)
+        {
+            <tr>
+                <td>@obj.Name</td>
+                <td>@obj.Price</td>
+                <td>@obj.Weight $</td>
+                <td>
+                    <a asp-controller="Product" asp-action="Edit" asp-route-id="@obj.Id">Edit</a>
+                </td>
+                <td>
+                    <a asp-controller="Product" asp-action="Details" 
+                       asp-route-id="@obj.Id">Details</a>
+                </td>
+                <td>
+                    <form asp-route-id="@obj.Id" asp-action="Delete" asp-controller="Product" method="post">
+                        
+                        <a href="#" onclick="this.parentNode.submit()">Delete</a>
+                        
+                    </form>
+                </td>
+                <td>
+                    <a  asp-controller="Product" asp-action="Add">Add</a>
+                </td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>
