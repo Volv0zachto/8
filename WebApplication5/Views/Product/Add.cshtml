@@ -1,22 +1,44 @@
 @model Product
-
-<h2>Добавить</h2>
-
-<form asp-controller="Product" asp-action="Add" method="post">
-    <div>
-        <label>Имя:</label>
-        <input type="text" asp-for="Name" >
+     <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header bg-secondary text-white">
+                            <h3 class="mb-0">Добавление продукта</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" id="Name" class="form-control"  />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
-    <div>
-        <label>Цена:</label>
-        <input type="text"  asp-for="Price" >
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" id="Price"  class="form-control" />
         <span asp-validation-for="Price" class="text-danger"></span>
     </div>
-    <div>
-        <label>Вес:</label>
-        <input type="text"  asp-for="Weight" >
+     <div class="form-group">
+        <label asp-for="Weight"></label>
+        <input asp-for="Weight" id="Weight" class="form-control" />
         <span asp-validation-for="Weight" class="text-danger"></span>
     </div>
-    <button type="submit">Добавить</button>
-</form>
+  <input type="submit" class="btn btn-primary" id="Submit" name="Submit" value="Добавить"/>
+  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="result"></div>
+
+@section Scripts{
+    <script>
+        $("#Submit").click(function()
+        {
+            var url ="@Url.Action("Add","Product")";
+            var model = { Name : $("#Name").val(), Price : $("#Price").val() , weight : $("#Weight").val()};
+            $.post(url, model, function(res){
+                $("#result").html(res);
+            });
+        })
+    </script>
+}

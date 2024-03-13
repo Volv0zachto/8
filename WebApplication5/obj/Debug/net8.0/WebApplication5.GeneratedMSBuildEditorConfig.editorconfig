@@ -9,43 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication5
 build_property.RootNamespace = WebApplication5
-build_property.ProjectDir = /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/
+build_property.ProjectDir = C:\Users\xarse\RiderProjects\dsa\WebApplication5\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/muteallchat/RiderProjects/WebApplication5/WebApplication5
+build_property.MSBuildProjectDirectory = C:\Users\xarse\RiderProjects\dsa\WebApplication5
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/Views/Product/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9BZGQuY3NodG1s
+[C:/Users/xarse/RiderProjects/dsa/WebApplication5/Views/Product/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/Views/Product/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZXRhaWxzLmNzaHRtbA==
+[C:/Users/xarse/RiderProjects/dsa/WebApplication5/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/Views/Product/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9FZGl0LmNzaHRtbA==
+[C:/Users/xarse/RiderProjects/dsa/WebApplication5/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/Views/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
+[C:/Users/xarse/RiderProjects/dsa/WebApplication5/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/xarse/RiderProjects/dsa/WebApplication5/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/xarse/RiderProjects/dsa/WebApplication5/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/xarse/RiderProjects/dsa/WebApplication5/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/muteallchat/RiderProjects/WebApplication5/WebApplication5/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-r0yw91ge33
+[C:/Users/xarse/RiderProjects/dsa/WebApplication5/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hfojqxc3fr

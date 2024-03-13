@@ -7,3 +7,17 @@
         
     </div>
 </div>
+<div id="Submit"></div>
+<div id="result"></div>
+@section Scripts{
+    <script>
+        $("#").add(function()
+        {
+            var url ="@Url.Action("Details","Product")";
+          
+            $.post(url, function(res){
+                $("#result").html(res);
+            });
+        })
+    </script>
+}
